@@ -22,7 +22,7 @@ func (s *stack) Pop() interface{} {
 	}
 
 	ret := s.nodes[len(s.nodes)-1]
-	s.nodes = s.nodes[0 : len(s.nodes)-1]
+	s.nodes = s.nodes[:len(s.nodes)-1]
 	return ret
 }
 
