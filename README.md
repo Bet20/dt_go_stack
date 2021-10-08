@@ -4,7 +4,7 @@
 init a new stack:
 ``` go 
 func main() {
-	s := stack{nodes: nil, size: 64}
+	s := Stack{Nodes: nil, Size: 64}
 }
 ```
 
